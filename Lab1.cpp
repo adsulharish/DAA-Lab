@@ -18,7 +18,6 @@ int findSpi(const vector<int>& grades, const vector<int>& credits) {
         sumProduct += grades[i] * credits[i];
         sumCredits += credits[i];
     }
-
     if (sumCredits == 0) {
         cout << "Error: Sum of credits is zero, cannot divide by zero." << endl;
         return -1; // Error value
